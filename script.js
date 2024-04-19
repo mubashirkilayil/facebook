@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $('#form').validate({
+        rules:{
+            fname:{
+                required:true,
+                minlength:4
+            },
+            sname:{
+                required:true,
+                minlength:4
+            },
+            mobile:{
+                required:true,
+                email:true
+            },
+            password:{
+                required:true,
+                minlength:8
+            },
+            day:{
+                required:true
+            },
+            month:{
+                required:true
+            }
+        },
+        messages:{
+                fname:
+                    "Enter first name"
+                }
+    })
+})

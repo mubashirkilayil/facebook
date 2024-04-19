@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozX2YsQl28kf4eem5LLvbq-oXbn171knkZA&usqp=CAU">
+</head>
+<body>
+    <div class = "container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="table-form">
+                        <tr>
+                            <td class="login-label">Email or Mobile</td>
+                            <td class="login-label">Password</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="submit" class="sub-button" value="Login"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten "href="forgotten.html">Forgotten account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="mainbody">
+            <div class="leftbody">
+                <p class="para">Facebook helps you connect and share with the<br>people in your life</p><br>
+                <!-- <img class="image" src="fb.jpg" alt=""> -->
+                <img class="image" src="https://scontent.fccj3-1.fna.fbcdn.net/v/t39.30808-6/341683100_272499785100845_5807744502606964682_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Y0WtQjYjL3YAX8VMK1z&_nc_ht=scontent.fccj3-1.fna&oh=00_AfAqwMZlBWWuU5Xqo6HkV99ze2BAog3jOjK7Y-HAOtnDJg&oe=66045ED5" alt="" width="500px"> <br>
+
+            </div>
+            <div class="rightbody">
+                <h1>Create an account</h1>
+                <h3>It's quick and easy</h3>
+                <form action="" id="form">
+                <div>
+                    <input name="fname" class="namelabel" type="text" placeholder="First name">
+                    <input name="sname" class ="namelabel" type="text" placeholder="Sure name">
+                </div>
+                <div>
+                    <input name="mobile" class="mobileoremaillabel" type="text" placeholder="Mobile number or email address">
+                </div>
+                <div>
+                    <input name="password" class="mobileoremaillabel" type="text" placeholder="New password">
+                </div>
+                <div class="birthday">
+                    <label for="">Birthday</label>
+                </div>
+                <div>
+                    <select class="select" name="day">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="select" name="month">
+                        <option value="">Month</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="select">
+                        <option value="">Year</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                    </select>
+                    <a href="" title="Click for more information" role="button"><img class="imageq" src="https://pngimg.com/d/question_mark_PNG99.png" alt=""></a>
+                </div>
+                <div class="birthday">
+                    <label for="">Gender</label>
+                </div>
+                <div class="select">
+                    <input type="radio" name="Gender">
+                    <label for="" >Male</label>
+                    <input type="radio" name="Gender">
+                    <label for="">Female</label>
+                    <input type="radio" name="Gender">
+                    <label for="">Custom</label>
+                    <a href="" title="Click for more information" role="button"><img class="imageq" src="https://pngimg.com/d/question_mark_PNG99.png" alt=""></a>
+                </div>
+                <div>
+                    <input class="signup" type="submit" value="Sign Up">
+                </div>
+                <div style="margin-top: 10px;">
+                    <a  class="alreadyAcc" href="">Already have an account?</a>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class ="footer">
+            <div><p>Log in or sign up for Facebook to connect with friends, family and people you know.</p></div>
+        </div>
+        <div class="footer1">
+            <div>
+                <input style="background-color: #1877f2;width: 250px;" class="signup" type="submit" value="Log in">
+                <label style="color: gray;font-size: 15px;">or</label>
+                <input class="signup" type="submit" value="Create New Account">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
